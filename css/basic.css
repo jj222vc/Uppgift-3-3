@@ -1,1 +1,104 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container{
+    height:600px;
+    width:800px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+#topbar{
+ width:800px;
+ height:50px;
+ text-align:right;
+ background-color:#51473d;
+}
+#menu {
+  width:800px;
+  height:50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  background-color:#51473d;
+  
+ 
+}
+#menu ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  padding-left:10px;
+ 
+  
+  
+}
+#menu ul li{
+  float: left;
+  background-color:#797066;
+  border-right-style:solid;
+  border-width:1px;
+  
+  
+}
+#menu ul li a:hover {
+  background: #eae7d2;
+}
+#menu ul li a {
+  display:inline-block;
+  width:100px;
+  height:32px;
+  text-decoration:none;
+}
+img{
+    width:100px;
+    float:left;
+    padding-right:5px;
+ 
+}
+
+#content{
+    width:800px;
+    height:600px;
+    background-color:#eae7d2;
+    margin-top:1px;
+}
+#maincontent{
+    width:400px;
+    height:452px;
+    float:left;
+    text-align:left;
+    
+}
+#subcontent {
+    width:350px;
+    height:452px;
+    float:right;
+    text-align:left;
+    border-left-style:dashed;
+    border-width:1px;
+    
+    
+}
+#bottomcontent{
+    margin-top:10px;
+    float:left;
+    width:800px;
+    height:10px;
+    text-align:left;
+    
+}
+p{
+    text-align:left;
+    line-height:150%;
+    
+    
+}
+#subcontent p{
+    font-size:90%;
+    font-family:Verdana, Geneva, sans-serif;
+    margin-left:10px;
+    
+}
+#subcontent h1{
+    font-size:150%;
+}
